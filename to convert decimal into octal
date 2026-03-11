@@ -1,0 +1,7 @@
+//decimal to octal
+#include<stdio.h>
+void main()
+{
+int a=20;
+printf("Octal number=%o",a);
+}
