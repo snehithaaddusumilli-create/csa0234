@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main ()
+{
+    int a=7;
+    scanf("%d",&a);
+    if (a>=0){
+        printf("a is the positive");
+    }
+    else 
+    printf("b is the negative");
+}
