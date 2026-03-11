@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void main() {
+    int i = 1, factorial = 1; 
+    int n = 5; 
+     while (i <= n) {
+      factorial = factorial * i; 
+        i++;
+    }
+    printf("factorial = %d\n", factorial);
+    printf("END");
+}
