@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main() {
+    int i = 1, sum = 0; // Initialize sum at 0
+    while (i <= 10) {
+        sum = sum + i; // Add the current value of i to sum
+        i++;
+    }
+    printf("sum = %d\n", sum);
+    printf("END");
+}
