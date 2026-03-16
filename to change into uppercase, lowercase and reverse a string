@@ -9,8 +9,10 @@ int main()
     scanf("%s", str);
 
     strupr(str);
-
+    strlwr(str);
+    strrev(str);
     printf("Uppercase string: %s", str);
-
+    printf("Lowercase string: %s", str);
+    printf("Reversed string: %s", str);
     return 0;
 }
